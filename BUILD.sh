@@ -22,13 +22,16 @@ fcho '* Installing zowe-explorer-vscode node_modules'
 pnpm install --frozen-lockfile
 fcho '* Building zowe-explorer-vscode'
 pnpm run build
+cd ..
 
 # Build zowe-explorer web bundle
 fcho '* Entering zowe-explorer package'
-cd packages/zowe-explorer
+cd zowe-explorer-vscode/packages/zowe-explorer
 fcho '* Building zowe-explorer web bundle'
 pnpm run build:web
+cd ../../..
 
 # Start the extension in browser
 fcho '* Starting zowe-explorer web bundle in browser'
-npx @vscode/test-web --extensionDevelopmentPath=. --browserOption=--disable-web-security ../../../workspace
+pnpm install --frozen-lockfile
+pnpm run start

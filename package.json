@@ -1,0 +1,16 @@
+{
+  "name": "zowe-explorer-vscode-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vscode-test-web --extensionDevelopmentPath=zowe-explorer-vscode/packages/zowe-explorer --browserOption=--disable-web-security workspace"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.8.1",
+  "dependencies": {
+    "@vscode/test-web": "^0.0.69"
+  }
+}
