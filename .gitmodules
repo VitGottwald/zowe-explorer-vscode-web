@@ -1,8 +1,8 @@
 [submodule "zowe-explorer-vscode"]
 	path = zowe-explorer-vscode
-	url = git@github.com:VitGottwald/zowe-explorer-vscode.git
+	url = ../zowe-explorer-vscode.git
 	branch = web-extension-poc
 [submodule "zowe-cli"]
 	path = zowe-cli
-	url = git@github.com:VitGottwald/zowe-cli
+	url = ../zowe-cli
 	branch = run-in-browser
