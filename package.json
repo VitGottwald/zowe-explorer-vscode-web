@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "vscode-test-web --extensionDevelopmentPath=zowe-explorer-vscode/packages/zowe-explorer --browserOption=--disable-web-security workspace"
+    "start": "vscode-test-web --extensionDevelopmentPath=zowe-explorer-vscode/packages/zowe-explorer --browserOption=--disable-web-security workspace --coi"
   },
   "keywords": [],
   "author": "",
