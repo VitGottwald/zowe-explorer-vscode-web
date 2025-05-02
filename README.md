@@ -5,10 +5,11 @@ A repo to tie together matching commits of ZOWE Explorer and ZOWE CLI (a depende
 
 To clone run
 ``` sh
-git clone --recurse-submodules https://github.com/VitGottwald/zowe-explorerer-vscode-web.git
+git clone --recurse-submodules https://github.com/VitGottwald/zowe-explorer-vscode-web.git
 ```
 
 To build run
 ```
+cd zowe-explorer-vscode-web
 ./BUILD.sh
 ```
