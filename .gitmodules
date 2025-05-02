@@ -1,0 +1,6 @@
+[submodule "zowe-explorer-vscode"]
+	path = zowe-explorer-vscode
+	url = git@github.com:VitGottwald/zowe-explorer-vscode.git
+[submodule "zowe-cli"]
+	path = zowe-cli
+	url = git@github.com:VitGottwald/zowe-cli
