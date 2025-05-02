@@ -5,6 +5,7 @@ A repo to tie together matching commits of ZOWE Explorer and ZOWE CLI (a depende
 ## Dependencies
 
 - nodejs 22.14.0
+- npm 10.9.2
 - pnpm 10.8.1
 
 ## Clone
