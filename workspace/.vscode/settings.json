@@ -1,0 +1,24 @@
+{
+    "hlasm.pgm_conf": {
+        "pgms": [
+            {
+                "program": "zowe-ds:**",
+                "pgroup": "DEFAULT"
+            }
+        ]
+    },
+    "hlasm.proc_grps": {
+        "pgroups": [
+            {
+                "name": "DEFAULT",
+                "libs": [
+                    "zowe-ds:/zosmf/SYS1.MACLIB",
+                    "zowe-ds:/zosmf/SYS1.MODGEN",
+                    "zowe-ds:/zosmf/ASMA.AASMMAC2"
+                ]
+            }
+        ]
+    },
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.secondarySideBar.showLabels": false
+}
