@@ -19,8 +19,14 @@ To install it, run
 curl -fsSL https://get.pnpm.io/install.sh | env PNPM_VERSION=10.8.1 bash -
 ```
 
-## Build and run
+## Build
 
 ```
 ./BUILD.sh
+```
+
+## Run
+
+```
+./RUN.sh
 ```

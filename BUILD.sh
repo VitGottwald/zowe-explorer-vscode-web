@@ -30,8 +30,3 @@ cd zowe-explorer-vscode/packages/zowe-explorer
 fecho '* Building zowe-explorer web bundle'
 pnpm run build:web
 cd ../../..
-
-# Start the extension in browser
-fecho '* Starting zowe-explorer web bundle in browser'
-pnpm install --frozen-lockfile
-pnpm run start
